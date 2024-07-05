@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+main{
+    background-color: #ffffff;
+}
+
+h1{
+    background-color: #660000;
+}
+
+
+header {
+    background-color: #660000;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+h2 {
+    background-color: #ffffff;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 1em 0;
+  
+}
+div {
+    
+    color: rgb(12, 12, 12);
+    text-align: center;
+  
+}
+.img1{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0;
+}
+.img2{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0;
+}
+.img3{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 0;
+}
+
+main {
+    padding: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, select {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #01e223;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.nama{
+    font-size: 35px;
+    color:#181818;
+}
+.email{
+    font-size: 25px;
+    color:#181818;
+}
+.kamar{
+   font-size: 25px;
+   color: #181818;;
+}
+
+.check-in{
+    font-size: 25px;
+    color:#181818;
+}
+.check-out{
+    font-size: 25px;
+    color:#181818;
+}
+
+
+
+
+
+
+
+button:hover {
+    background-color: #2903e8;
+}
+
+#reservation-data {
+    margin-top: 20px;
+    padding: 1em;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

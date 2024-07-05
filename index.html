@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Rakyat</title>
+    <link rel="stylesheet" href="style.css" href="script.js" href="server.js" href="admin.html">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hotel Rakyat</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Lihat Kamar Yang Tersedia</h2>
+            <div id="Kamar-Tersedia">
+                <h2>Kamar Standar : Tersedia </h2>
+                <img src="standar.jpg" width="300px" class="img1">
+                <h2>Kamar Deluxe : Tersedia</h2>
+                <img src="deluxe.jpg" width="300px" class="img2">
+                <h2>Kamar Suite : Tersedia</h2>
+                <img src="suite.jpg" width="300px" class="img3">
+            </div>
+        </section>
+        <section>
+            <h2>Booking Kamar</h2>
+            <form id="reservasi-form">
+                <label for="nama"class="nama">nama:</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="email"class="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tipe-kamar" class="kamar">tipe Kamar:</label>
+                <select id="tipe-kamar" name="tipe-kamar" required>
+                    <option value="standar">Kamar Standard </option>
+                    <option value="deluxe">Kamar Deluxe </option>
+                    <option value="suite">Suite</option>
+                </select>
+
+                <label for="check-in" class="check-in">Tanggal Check-in :</label>
+                <input type="date" id="check-in" name="check-in" required>
+
+                <label for="check-out"class="check-out">Tanggal Check-out :</label>
+                <input type="date" id="check-out" name="check-out" required>
+
+                <button type="submit">Booking sekarang</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
